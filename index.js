@@ -1,6 +1,8 @@
 
  
  const selectPlan = (planNumber) => {
+
+    let vyber = document.getElementById(`plan${planNumber}`)
     let plan1 = document.getElementById('plan1')
     let plan2 = document.getElementById('plan2')
     let plan3 = document.getElementById('plan3')

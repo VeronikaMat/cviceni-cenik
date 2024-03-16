@@ -8,7 +8,9 @@
     let plan3 = document.getElementById('plan3')
 }
 
-    if (planNumber === 1) {
+let vyber = document.getElementById(`plan${planNumber}`)
+
+if (planNumber === 1) {
         plan1.classList.add('plan--selected')
         plan2.classList.remove('plan--selected')
         plan3.classList.remove('plan--selected')

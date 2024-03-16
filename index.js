@@ -14,7 +14,7 @@
 
 
 
-        vyber.classList.add('plan1')
+        vyber.classList.add('plan--selected')
   }
   
   /*if (planNumber === 1) {
